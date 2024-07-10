@@ -1,9 +1,21 @@
-import Image from "next/image";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Experience from "@/components/experience";
+import Home from "@/components/home";
+import Projects from "@/components/projects";
+import SectionDivider from "@/components/section-divider";
+import Skills from "@/components/skills";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+    <main className="flex flex-col items-center px-4">
+      <Home />
+      <SectionDivider />
+      <About />
+      <Projects />
+      <Skills />
+      <Experience />
+      <Contact />
     </main>
   );
 }
