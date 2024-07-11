@@ -4,6 +4,8 @@ import { PinContainer } from './ui/3d-pin'
 import SectionHeading from './section-heading'
 import { projectsData } from '@/lib/data'
 import { useSectionInView } from '@/lib/hooks';
+import Image from 'next/image';
+import clsx from 'clsx';
 
 function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -41,7 +43,14 @@ function Projects() {
                 ))}
             </ul>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+                <div className={ clsx("flex flex-1 w-full rounded-lg mt-4",{
+                  "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500":
+                  project.imageUrl.length === 0
+                })}>
+                  {/* { project.imageUrl.length > 0 && <Image src={project.imageUrl} alt="Image" width={100} height={100} className='w-[100%] object-cover' placeholder="blur"
+    blurDataURL="data:image/png;base64,..."
+/> } */}
+                </div>
             </div>
             </PinContainer>
         ))}

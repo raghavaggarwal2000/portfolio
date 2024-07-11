@@ -19,7 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
+        I started my career in between my masters as a Full Stack Engineer as Blocktickets. Over there I created a backend application from scratch, I was part of 
+        Blockticket for 1 year 3 months. On Sept 2023, I joined Plutos One as an Software Engineer and here I have worked on multiple projects like chatbot, BBPS.
+        {/* After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -33,16 +35,16 @@ export default function About() {
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer. */}
       </p>
 
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        video games, watching movies, and going to gym. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&apos;m also
-        learning how to play the guitar.
+        <span className="font-medium">Chess games</span>. I&apos;m also
+        learning about dancing.
       </p>
     </motion.section>
   );

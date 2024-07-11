@@ -36,35 +36,49 @@ export const projectsData = [
     {
       title: "Live Chat Application",
       description:
-        "A Real live chat application, for users to text with each other.",
-      webUrl: "",
-      tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-      imageUrl: "corpcommentImg",
+        "A Real live chat application, for users to chat with each other.",
+      webUrl: "https://real-time-chat-xwu5.onrender.com",
+      tags: ["Node.js", "React.js", "MongoDB", "Express.js", "Sockets", "JWT", "Chakra UI"],
+      imageUrl: ""
     },
     {
-      title: "rmtDev",
+      title: "E-commerce",
       description:
         "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-      webUrl: "",
-      tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-      imageUrl: "rmtdevImg",
+      webUrl: "https://ecommerce-nodsjs.vercel.app/",
+      tags: ["Node.js", "JWT","EJS", "MongoDB", "S3 Bucket"],
+      // imageUrl: "/ecommerce (1).png",
+      imageUrl: "",
+
     },
     {
-      title: "Word Analytics",
+      title: "Rate Limiter",
       description:
-        "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-      webUrl: "",
-      tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-      imageUrl: "wordanalyticsImg",
+        "A backend middleware used for restricting the API hit's for minute.",
+      webUrl: "https://github.com/raghavaggarwal2000/rate_limit_middleware",
+      tags: ["Node.js", "Express.js", "Redis", "IP Address"],
+      imageUrl: "",
     },
   ] as const;
 
 
 export const skillsData = [
+  "Data Structures & Algorithm",
   "Node.js",
   "Express.js",
   "Nest.js",
-  "React.js"
+  "React.js",,
+  "C++",
+  "Next.js",
+  "Microservices",
+  "Postman",
+  "BullMQ",
+  "Python",
+  "Django",
+  "Redis",
+  "MySQL",
+  "MongoDB",
+  "PostgreSQL",
 ] as const;
 
 
@@ -97,7 +111,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Noida, India",
     description:
-      "I am currently working for Plutos One, ",
+      "I am currently working for Plutos One. Here I am currently working for chatbot as well as I am creating BBBPS and leading a team of 4 employees. ",
     icon: React.createElement(FaReact),
     date: "Sept 2023 - present",
   },

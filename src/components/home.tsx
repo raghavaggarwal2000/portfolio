@@ -14,7 +14,7 @@ import { TbBrandLeetcode } from 'react-icons/tb';
 export default function Home() {
     const { ref } = useSectionInView("Home", 0.5);
     const { setActive, setTimeOfLastClick } = useActiveSectionContext();
-    const words = "Hello, I'm Raghav. I'm a Software Engineer with 2 years of experience. fadsfdsfsdfsdfsdfasfasdfsdf"
+    const words = "Hello, I'm Raghav. I'm an MCA Post-grad working as a Software Engineer with 2 years of experience. I enjoy learning new technology and implementing it in real time Application"
   return (
    <section ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" id = 'home'>
     <div className='flex justify-center items-center'>
